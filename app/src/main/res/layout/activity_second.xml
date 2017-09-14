@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.epicodus.annatimofeeva.mytests.MainActivity">
+    tools:context="com.epicodus.annatimofeeva.mytests.SecondActivity">
 
-    <Button
-        android:id="@+id/showButtonID"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/go_to"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="231dp" />
+        android:text="@string/second_name"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="73dp" />
 </android.support.constraint.ConstraintLayout>

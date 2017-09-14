@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyTests</string>
+    <string name="go_to">Show the next Activity</string>
+    <string name="second_name">Second activity</string>
 </resources>
